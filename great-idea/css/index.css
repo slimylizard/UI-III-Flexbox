@@ -57,10 +57,87 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6, h7 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.top{
+	padding: 10px 20px 20px;
+
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	text-align: center;
+	font-size: 100px;
+	width: 300px;
+}
+.logo{
+	margin: 0px
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	height: 150px;
+	padding:30px;
+}
+h2, h3, h4, h5, h6, h7{
+font-size: 30px;
+}
+.pic{
+	display: inline;
+}
+.iod{
+	display: flex;
+	justify-content: center;
+}
+.big{
+	margin: 0px 200px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.mid{
+	display: flex;
+	justify-content: space-evenly;
+}
+.three{
+	display: flex;
+	justify-content: space-between;
+}
+.all{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.mid-img{
+	margin:0 0 0 64px;
+}
+.boxes{
+	width: 411px;
+	height: 250px;
+	border: 3px solid black;
+	margin: 50px;
+	background: lightgrey;
+}
+.all-boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.last{
+	display:flex;
+	justify-content: center;
+}
+ul{
+	margin: 20px;
+}
+li{
+	padding:5px;
+}
